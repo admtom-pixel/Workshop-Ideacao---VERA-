@@ -21,7 +21,7 @@ export const Hero: React.FC = () => {
         </div>
 
         <div className="grid lg:grid-cols-12 gap-10 lg:gap-4 items-center flex-grow">
-          <div className="lg:col-span-7 xl:col-span-8 z-20 flex flex-col items-start text-left py-10 lg:py-20">
+          <div className="lg:col-span-7 xl:col-span-7 z-20 flex flex-col items-start text-left py-10 lg:py-24">
             <div className="inline-flex items-center gap-3 px-5 py-2 rounded-full bg-vera-navy/40 backdrop-blur-md border border-vera-accent/30 mb-8 shadow-inner group">
               <span className="w-2 h-2 rounded-full bg-vera-accent shadow-[0_0_12px_rgba(228,142,33,0.8)] group-hover:scale-125 transition-transform" />
               <span className="text-[10px] lg:text-[11px] font-extrabold tracking-[0.2em] lg:tracking-[0.25em] uppercase text-vera-accent">
@@ -51,35 +51,35 @@ export const Hero: React.FC = () => {
             </div>
           </div>
 
-          <div className="lg:col-span-5 xl:col-span-4 relative flex justify-center lg:justify-end self-end h-full">
+          <div className="lg:col-span-5 xl:col-span-5 relative flex justify-center lg:justify-end self-end h-full">
             {/* Selos flutuantes */}
-            <div className="absolute top-[15%] left-0 lg:-left-20 z-30 animate-float-slow">
+            <div className="absolute top-[10%] left-0 lg:-left-20 z-30 animate-float-slow">
               <div className="glass-card px-4 py-2 text-[10px] font-black uppercase tracking-widest text-white border-white/20 shadow-2xl backdrop-blur-3xl">
                 Inteligência Artificial
               </div>
             </div>
-            <div className="absolute top-[45%] right-0 lg:-right-10 z-30 animate-float-delayed">
+            <div className="absolute top-[40%] right-0 lg:-right-10 z-30 animate-float-delayed">
               <div className="glass-card px-4 py-2 text-[10px] font-black uppercase tracking-widest text-vera-accent border-vera-accent/20 shadow-2xl backdrop-blur-3xl">
                 Neurociência
               </div>
             </div>
-            <div className="absolute bottom-[20%] left-10 lg:-left-5 z-30 animate-float-slow">
+            <div className="absolute bottom-[25%] left-10 lg:-left-5 z-30 animate-float-slow">
               <div className="glass-card px-4 py-2 text-[10px] font-black uppercase tracking-widest text-white/60 border-white/10 shadow-2xl backdrop-blur-3xl">
                 Branding & Vendas
               </div>
             </div>
 
-            <div className="relative w-full max-w-[500px] lg:max-w-none flex justify-center items-end h-full">
+            <div className="relative w-full max-w-[500px] lg:max-w-none flex justify-center lg:justify-end items-end h-full">
               <div className="absolute bottom-[20%] left-1/2 -translate-x-1/2 w-[80%] h-[60%] bg-vera-accent/10 blur-[100px] rounded-full z-0 pointer-events-none opacity-40" />
 
-              <div className="relative z-10 w-full flex justify-center lg:justify-end items-end">
+              <div className="relative z-10 w-full flex justify-center lg:justify-end items-end h-full">
                 <img 
                   src={userPhotoUrl} 
                   alt="Tom - Mentor Ideação"
-                  className="w-full h-auto max-h-[90dvh] object-contain drop-shadow-[0_15px_45px_rgba(0,0,0,0.30)] lg:scale-110 lg:origin-bottom-right"
+                  className="w-full h-auto max-h-[100dvh] object-contain drop-shadow-[0_15px_45px_rgba(0,0,0,0.30)] lg:scale-[1.4] lg:origin-bottom-right lg:-mb-1"
                   style={{
-                    WebkitMaskImage: 'linear-gradient(to bottom, black 90%, transparent 100%)',
-                    maskImage: 'linear-gradient(to bottom, black 90%, transparent 100%)'
+                    WebkitMaskImage: 'linear-gradient(to bottom, black 80%, transparent 100%)',
+                    maskImage: 'linear-gradient(to bottom, black 80%, transparent 100%)'
                   }}
                 />
               </div>
